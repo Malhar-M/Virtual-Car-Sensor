@@ -1,0 +1,36 @@
+Overview:
+
+An *AI-driven virtual sensor system* that monitors real car sensor data and *predicts critical parameters* like *oil pressure* and *cabin noise* — even when physical sensors are missing.
+
+When anomalies are detected, it:
+•⁠  ⁠Plays a *loud beep* on the laptop
+•⁠  ⁠Sends *urgent email alerts*
+•⁠  ⁠Logs everything in a database
+•⁠  ⁠Updates a *live dashboard*
+
+Perfect for *predictive maintenance, **fleet monitoring, and **hackathon demos*.
+
+
+
+Features
+
+| Feature | Description |
+|-------|-----------|
+| *Virtual Sensors* | AI predicts ⁠ oil_pressure ⁠ & ⁠ noise_index ⁠ from speed, RPM, temp |
+| *3-Tier Alerts* | ⁠ NORMAL ⁠ → ⁠ WARNING ⁠ → ⁠ CRITICAL ⁠ |
+| *Beep Alert* | 3 loud beeps on *CRITICAL* (Windows) |
+| *Email Alerts* | Sent via Gmail SMTP |
+| *Live Simulation* | 10 rows processed with 2-sec delay |
+| *Full Logging* | All data + alerts saved in ⁠ CarSensorLogs ⁠ |
+| *Live Dashboard* | Streamlit UI with real-time logs |
+
+
+
+ Tech Stack
+
+•⁠  ⁠*WorqHat* – Workflow, AI, Database, Email
+•⁠  ⁠*Python* – Custom beep node
+•⁠  ⁠*Streamlit* – Live frontend
+•⁠  ⁠*Gmail SMTP* – Alert emails
+
+
